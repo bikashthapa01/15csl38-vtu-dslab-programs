@@ -1,0 +1,214 @@
+body {
+	margin:0;
+	padding:0;
+	background:#ededed;
+}
+.top {
+	background: #383838;
+    color: #fff;
+    padding: 5px;
+}
+.site_header {
+	width: 100%;
+	background:#cb0003;
+	/*padding: 10px;*/
+	color: #fff;
+	overflow: hidden;
+}
+#header_content,#menu,#content,#top_content,
+#footer_info,#wrapper,.ticker{
+	max-width: 78%;
+	margin: auto;
+}
+.site_logo {
+	float: left;
+	width: 30%;
+}
+.banner {
+	float: left;
+	width: 68%;
+	padding: 8px;
+}
+.site_menu {
+	background:#b70002;
+	clear: both;
+	width: 100%;
+}
+.site_menu ul {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+
+.site_menu ul li {
+	display: inline-block;
+    padding: 11px;
+    border-right: 1px inset #99131587;
+}
+
+.site_menu ul li a {
+	font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+
+}
+.site_menu ul li a:hover {
+	color: #ccc;
+}
+
+.block {
+	width: 48.5%;
+    float: left;
+    background: #fbf7f9;
+    margin: 0px 10px 10px 0px;
+}
+
+.site-footer {
+	clear: both;
+	background:#383838;
+	border-top: 10px solid #aa0608;
+	margin-top: 10px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.site_content, #sidebar {
+	overflow: hidden;
+}
+
+#content {
+	width: 75%;
+	float: left;
+}
+
+
+#sidebar {
+	width: 25%;
+	float:left;
+	
+}
+.widget {
+	background: #fbf7f9;
+	margin-bottom: 5%;
+}
+.widget_content {
+	padding: 5px;
+}
+#wrapper {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.block_title,.widget_title {
+	float: left;
+    background: #ca0002;
+    padding: 6px 6px 6px 10px;
+    height: 20px;
+    font-size: 14px;
+    color: #FFF;
+    text-shadow: 0 2px 3px #555;
+    margin: 0;
+}
+.block ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.block ul li img {
+	width: 40%;
+	float: left;
+	margin: 5px;
+}
+.block ul li {
+	padding: 5px;
+
+}
+.block ul li h1 {
+	 font-weight: bold;
+    font-size: 12px;
+    color: #383838;
+    text-decoration: none;
+    margin: 0 0px 5px 0px;
+    /*line-height: 0;*/
+}
+
+.block ul li p {
+	margin: 0;
+	font-size: 12px;
+}
+#button {
+	width: 3%;
+	height: 3%;
+	float: left;
+}
+.block ul li a {
+	text-decoration: none;
+}
+#top_menu {
+	overflow: hidden;
+
+}
+#dateTime {
+	float: left;
+	width: 20%;
+}
+#top_menu li {
+	list-style: none;
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+	border-right: 1px inset #fff;
+}
+#top_menu li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.widget_content ul {
+	list-style: none;
+	padding: 5px;
+	margin: 0;
+}
+.widget_content ul li img {
+	width: 100%;
+}
+.widget_content ul li a {
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color:#000;
+}
+
+.widget_content ul li  a h1 {
+	font-size: 12px;
+}
+#button_widget {
+	width: 5%;
+    float: left;
+    padding: 5px;
+} 
+.ticker {
+	border:1px solid #000;
+	/*padding: 5px;*/
+	margin-top: 10px;
+}
+.ticker h3 {
+	margin: 0;
+    background: #000;
+    color: #fff;
+    width: 15%;
+    border-radius: 0px 0px 50px 0px;
+    padding: 5px;
+}
+
+/*Responsive CSS codes for different screensize*/
+
+@media screen and(max-width: 1000px;){
+	
+}
